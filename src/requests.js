@@ -1,0 +1,17 @@
+const Api_key="b853f1ed727e891d352f9c6cc85ebeb6";
+//const Api_key="19f84e11932abbc79e6d83f82d6d1045";
+const requests={
+    fetchTrending:`/trending/all/week?api_key=${API_KEY} &language=en-US`,
+   fetchNetflixOriginals:`/discover/tv?api_key=${API_KEY}&width_network=213`,
+    fetchTopRated:`/movie/top_rated?a9pi_key=${API_KEY}&language=en-US`,
+    fetchActionMovies:`/discover/movie?api_key=${API_KEY} &width_genres=28`,
+    fetchComedyMOVIES:`/discover/movie?api_key=${API_KEY}&width_genres=35`,
+    fetchHorrorMovies:`/discover/movie?api_key=${API_KEY}&width_genres=27`,
+    fetchRomanceMovies:`/discover/movie?api_key=${API_KEY}&width_genres=10749`,
+    fetchDocumentation:`/discover/movie/?api_key=${API_KEY}&width_genres=99`,
+
+
+
+}
+
+export default requests;
